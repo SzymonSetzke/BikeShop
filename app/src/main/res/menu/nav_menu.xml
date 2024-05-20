@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bmx"
+            android:icon="@drawable/baseline_bike"
+            android:title="BMX"/>
+        <item
+            android:id="@+id/nav_child"
+            android:icon="@drawable/baseline_bike"
+            android:title="Dziecięce"/>
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/baseline_bike"
+            android:title="Miejskie"/>
+        <item
+            android:id="@+id/nav_cross"
+            android:icon="@drawable/baseline_bike"
+            android:title="Crossowe"/>
+        <item
+            android:id="@+id/nav_cycling"
+            android:icon="@drawable/baseline_bike"
+            android:title="Szosowe"/>
+        <item
+            android:id="@+id/nav_electric"
+            android:icon="@drawable/baseline_bike"
+            android:title="Elektryczne"/>
+        <item
+            android:id="@+id/nav_mtb"
+            android:icon="@drawable/baseline_bike"
+            android:title="MTB"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Wyloguj"/>
+        </menu>
+    </item>
+</menu>
